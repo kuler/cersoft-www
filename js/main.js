@@ -1,3 +1,5 @@
+//remove background from welcome page
+$('#page-welcome').removeClass('static-background')
 
 $(document).ready(function(){
 
@@ -109,9 +111,6 @@ $('.chart').waypoint(function() {
 			$( "#vegas-prev" ).click(function() {
 			  $.vegas('previous');
 		});
-    //remove background from welcome page
-    $('#page-welcome').removeClass('static-background')
-
 
 /*Contact form */
       $('#contact-form').validate({

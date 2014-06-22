@@ -1,6 +1,3 @@
-//remove background from welcome page
-$('#page-welcome').removeClass('static-background')
-
 $(document).ready(function(){
 
 

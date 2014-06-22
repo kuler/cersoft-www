@@ -45,7 +45,7 @@
             document.documentElement.className = "js"
         </script>
     </head>
-    <body>
+    <body itemscope itemtype="http://data-vocabulary.org/Person">
   <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -79,12 +79,12 @@
         <div class="container">
             <div class="row">
                 <header class="centered">
-                    <h1>Mariusz Kulerski</h1>
-                    <p>Software engineer, agile practitioner</p>
+                    <h1 itemprop="name">Mariusz Kulerski</h1>
+                    <p itemprop="title">Software engineer, agile practitioner</p>
                 </header>
                 <div class="social-icons">
                         <a href="https://twitter.com/MariuszKulerski" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="http://pl.linkedin.com/pub/mariusz-kulerski/a/794/78a" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                        <a itemprop="url" href="http://pl.linkedin.com/pub/mariusz-kulerski/a/794/78a" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
                         <a href="http://www.meetup.com/members/129590692/" class="btn btn-round btn-clear btn-meetup"><i class="fa fa-share"></i></a>
                         <a href="https://github.com/kulerskim" class="btn btn-round btn-clear btn-github"><i class="fa fa-github"></i></a>
                         <a href="https://plus.google.com/116133022289932718779/posts" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a>
@@ -181,7 +181,7 @@
                  <div class="col-md-6">
                   <article class="education">
                     <header>
-                      <h3>Warsaw University</h3>
+                      <h3 itemprop="affiliation">Warsaw University</h3>
                       <p>Mathematics and Computer Science in Business<br/>(postgraduate studies) - <strong>Graduated:</strong> 2007</p>
                     </header>
                       <!--<p>-->
@@ -192,7 +192,7 @@
                 <div class="col-md-6">
                 <article class="education">
                   <header>
-                    <h3>University of Information Technology WIT under the auspices of the Polish Academy of Sciences</h3>
+                    <h3 itemprop="affiliation">University of Information Technology WIT under the auspices of the Polish Academy of Sciences</h3>
                     <p>Bachelor of Engineering in Computer Science - <strong>Graduated:</strong> 2003</p>
                   </header>
                     <!--<p></p>-->
@@ -214,7 +214,7 @@
                   <article class="experience">
                     <header>
                       <h3>Scrum master</h3>
-                      <p>Millward Brown Poland, 2013 - Current</p>
+                      <p><span itemprop="affiliation">Millward Brown Poland</span>, 2013 - Current</p>
                     </header>
                       <p>As a certified scrum master I am responsible for supporting teams in everyday work. Continuously looking for improvements and interesting retrospective ideas. I attend to Agile Warsaw meetings and local conferencies.</p>
                   </article>
@@ -232,7 +232,7 @@
                 <article class="experience">
                   <header>
                     <h3>Software developer</h3>
-                     <p>Imetria S.A., Cersoft, Millward Brown, 2001 - Current</p>
+                     <p><span itemprop="affiliation">Imetria S.A.</span>, Cersoft, Millward Brown, 2001 - Current</p>
                   </header>
                     <p>As a software developer I've been working mainly on systems accessible with browser (Software As a Service). I have experience with backend (RESTful services, SOAP, APIs) and frontend (Javascript with jQuery, SASS, Bootstrap), currently developing with Rails with all engineering goodies like fast deployment and automatic tests</p>
                 </article>
